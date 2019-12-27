@@ -2,8 +2,6 @@
 
 namespace Source\Correios;
 
-use ReflectionClass;
-
 class CorreiosWS
 {
 
