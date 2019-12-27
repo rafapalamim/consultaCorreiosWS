@@ -1,0 +1,21 @@
+{
+    "name": "rafapalamim/consulta-ws-correios",
+    "description": "Consumindo web service do Correios para obter o custo e estimativa de tempo para entrega",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Palamim",
+            "email": "rafael@palaweb.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "files": ["source/Helpers/helpers.php"],
+        "psr-4": {
+            "Source\\": "source/"
+        }        
+    }
+    
+}
